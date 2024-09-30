@@ -17,11 +17,11 @@
 <body>
     <h1 id="header" onclick="changeBackground()">Peekaboo</h1>
     <input type="text" class="form-control" id="query" placeholder="Search the web" onkeypress="checkEnter(event)">
-    
+    <div id ="container">
     <button onclick="search()" class="btn btn-primary">Search</button> 
     <button onclick="displayTime()" class="btn btn-secondary">Show Current Time</button> 
     <button onclick="lucky()" class="btn btn-secondary">I'm feeling lucky</button> 
-
+    </div>
     <div id="time"></div> 
     <div id="searchResults"></div> 
 

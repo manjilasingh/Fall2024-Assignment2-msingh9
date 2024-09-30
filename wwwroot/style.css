@@ -59,6 +59,31 @@ body {
     
 }
 
+@media (max-width: 1000px) {
+    body{
+        margin-left: 0;
+        
+    }
+    #header {
+        font-size: 200px;
+        text-align: center;
+    }
+    #container {
+        text-align: center;
+    }
+    #query {
+        width: 65%;
+        text-align: center;
+        margin:2rem auto;
+        font-size: 27px;
+    }
+    .btn, .btn-primary {
+        font-size: 28px;
+        margin:0 8px;
+    }
+
+}
+
 
 
 
