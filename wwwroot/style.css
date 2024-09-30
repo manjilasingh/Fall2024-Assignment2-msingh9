@@ -38,6 +38,7 @@ body {
     background-color: rgba(0,0,0,0.6);
     font-size: 1.3rem;
     display:none;
+    margin-bottom:3rem;
 }
 #time {
     font-size: 1.3rem;
