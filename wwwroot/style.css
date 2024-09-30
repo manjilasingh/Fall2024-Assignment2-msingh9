@@ -1,0 +1,63 @@
+body {
+    background-image: url('img/bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    min-height: 100vh;
+    color:white;
+    margin-left: 3rem;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+}
+.btn-primary {
+    background-color:rgb(20, 153, 62);
+    border:1px solid rgb(20, 153, 62);
+
+}
+
+.btn-primary:hover {
+    background-color:rgb(8, 93, 35);
+}
+#header {
+    text-align: left;
+    font-size: 8rem;
+    color: white;
+}
+#query {
+    width:20%;
+    margin-bottom: 2rem;
+}
+#searchResults {
+    padding:1.1rem;
+    border-radius: 17px;
+    max-height: 500px;
+    margin-right:3rem;
+    margin-top:2rem;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 1.3rem;
+    display:none;
+}
+#time {
+    font-size: 1.3rem;
+    color: rgba(0,0,0);
+    background-color: white;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    border-radius: 12px;
+    margin-top:2rem;
+    width: fit-content;
+    display:none;
+
+}
+.item a {
+    color: rgb(155, 160, 209);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+
+
