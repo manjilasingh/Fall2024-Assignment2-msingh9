@@ -31,14 +31,14 @@ body {
 #searchResults {
     padding:1.1rem;
     border-radius: 17px;
-    max-height: 500px;
-    margin-right:3rem;
+    max-height: 100vh;
     margin-top:2rem;
     overflow: auto;
     background-color: rgba(0,0,0,0.6);
     font-size: 1.3rem;
     display:none;
-    margin-bottom:3rem;
+    margin-bottom:0rem;
+    -webkit-overflow-scrolling: touch;
 }
 #time {
     font-size: 1.3rem;
@@ -65,7 +65,6 @@ body {
         
     }
     #header {
-        font-size: 200px;
         text-align: center;
     }
     #container {
@@ -75,15 +74,11 @@ body {
         width: 65%;
         text-align: center;
         margin:2rem auto;
-        font-size: 27px;
+        font-size: 1.4rem;
     }
     .btn, .btn-primary {
-        font-size: 28px;
+        font-size: 1.3rem;
         margin:0 8px;
     }
 
 }
-
-
-
-
