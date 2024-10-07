@@ -14,7 +14,7 @@ function apiSearch() {
         url: 'https://api.bing.microsoft.com//v7.0/search?' + $.param(params),
         type: 'GET',
         headers: {
-            'Ocp-Apim-Subscription-Key': 'API_KEY'
+            'Ocp-Apim-Subscription-Key': '<API_KEY>'
         }
     })
         .done(function (data) {
